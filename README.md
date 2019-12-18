@@ -25,3 +25,7 @@ Your primary role User Interface Developer:
 [ ] For a second page, you could do an about us section that includes images of the members of your team, and links to one another's socials/Github.
 
 Grading Rubric: https://www.notion.so/Web-Unit-1-9d72ca3e8a78480689e63938c7b9599f
+
+
+My Notes:
+I found and took my inspriation from the Lambdaschool.com page as well as the training kit. Using a color picker extension I was able to extract the colors from the lambda website to use within my own design. Images were also extracted from the website and from a free stockphoto page Pixabay.com.
