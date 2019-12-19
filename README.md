@@ -29,3 +29,5 @@ Grading Rubric: https://www.notion.so/Web-Unit-1-9d72ca3e8a78480689e63938c7b9599
 
 My Notes:
 I found and took my inspriation from the Lambdaschool.com page as well as the training kit. Using a color picker extension I was able to extract the colors from the lambda website to use within my own design. Images were also extracted from the website and from a free stockphoto page Pixabay.com.
+
+The idea behind my design is to keep it simple. Helpdesks should be functional and practical first, but good design should still exist. I spent hours researching other helpdesks and not many are "modern". I have taken my path on this attempting to keep a clean but usable healpdesk.
