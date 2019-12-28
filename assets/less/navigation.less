@@ -1,6 +1,5 @@
 //Navigation Styles Here
 nav {
-    background-color: @silver;
     border-top: 2px solid @lambda-red;
     max-width: 100%;
     padding-top:10px;
@@ -10,16 +9,16 @@ nav {
     justify-content: space-evenly;
 
     @media @tablet {
-        background-color: pink;
+         
         display: flex;
         flex-flow: row nowrap;
         max-width: 100%;
-        justify-content: left;
+        justify-content: space-between;
         border: none;
     } //media queary : tablet: nav
 
     @media @desktop {   
-        background-color: salmon;
+      
         display: flex;
         flex-flow: row nowrap;
         max-width: 100%;
@@ -35,18 +34,22 @@ nav {
         border-bottom: 2px solid @lambda-red;
         border-width: 100%;
         padding: 10px 50px;
-        align-items: flex-start;
+        
 
         @media @tablet {
             border: none;
             height: auto;
-            width: 50%;
+            max-width: 250px;
+            padding: 10px;
+            margin: 15px;
         } //media queary : tablet : image
 
         @media @desktop {
             border: none;
             height: auto;
-            width: 50%;
+            max-width: 250px;
+            padding: 10px;
+            margin: 15px;
         } //media queary : desktop : image
         
         
@@ -61,11 +64,11 @@ nav {
         width: 100%;
 
         @media @tablet {
-            
             display: flex;
             justify-content: space-around;
             flex-flow: row nowrap;
-            max-width: 100%;
+            max-width: 300px;
+            margin: 15px;
             align-items: center;
         } //media queary : tablet : nav-links
 
@@ -74,8 +77,9 @@ nav {
             display: flex;
             justify-content: space-around;
             flex-flow: row nowrap;
-            max-width: 100%;
+            max-width: 300px;
             align-items: center;
+            margin: 20px;
         } //media queary : desktop : nav-links
 
         .signin_btn {

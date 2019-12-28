@@ -171,7 +171,6 @@ img {
   margin: 0 auto;
 }
 nav {
-  background-color: #C0C0C0;
   border-top: 2px solid #BB1333;
   max-width: 100%;
   padding-top: 10px;
@@ -182,17 +181,15 @@ nav {
 }
 @media (min-width: 800px) {
   nav {
-    background-color: pink;
     display: flex;
     flex-flow: row nowrap;
     max-width: 100%;
-    justify-content: left;
+    justify-content: space-between;
     border: none;
   }
 }
 @media (min-width: 1000px) {
   nav {
-    background-color: salmon;
     display: flex;
     flex-flow: row nowrap;
     max-width: 100%;
@@ -206,20 +203,23 @@ nav .logo-img {
   border-bottom: 2px solid #BB1333;
   border-width: 100%;
   padding: 10px 50px;
-  align-items: flex-start;
 }
 @media (min-width: 800px) {
   nav .logo-img {
     border: none;
     height: auto;
-    width: 50%;
+    max-width: 250px;
+    padding: 10px;
+    margin: 15px;
   }
 }
 @media (min-width: 1000px) {
   nav .logo-img {
     border: none;
     height: auto;
-    width: 50%;
+    max-width: 250px;
+    padding: 10px;
+    margin: 15px;
   }
 }
 nav .nav-links {
@@ -234,7 +234,8 @@ nav .nav-links {
     display: flex;
     justify-content: space-around;
     flex-flow: row nowrap;
-    max-width: 100%;
+    max-width: 300px;
+    margin: 15px;
     align-items: center;
   }
 }
@@ -243,8 +244,9 @@ nav .nav-links {
     display: flex;
     justify-content: space-around;
     flex-flow: row nowrap;
-    max-width: 100%;
+    max-width: 300px;
     align-items: center;
+    margin: 20px;
   }
 }
 nav .nav-links .signin_btn {
