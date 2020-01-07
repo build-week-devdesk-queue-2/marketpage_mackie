@@ -1,0 +1,110 @@
+header {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+text-align: center;
+ 
+
+    .hero {
+        align-items:center;
+        .flex-four();
+        border-bottom: 2px solid @lambda-red;
+        
+        
+
+        @media @tablet {
+             margin: 0;
+             padding: 0;
+         }
+
+            @media @desktop {
+            align-self: center;
+            width: 75%;
+            margin-bottom: 30px;
+            padding: 0;
+            display: flex;
+            border: none;
+         }
+
+         .hero-img {
+            align-self: flex-start;
+            
+
+            @media @tablet {
+            width: 100%;
+            height: 375px;
+         }
+
+            @media @desktop {
+                position: absolute;
+                width: 90%;
+                height: 250px;
+                z-index: -1;
+                opacity: .50;
+         }
+        }
+
+        .hero-text {
+            @media @tablet {
+             z-index: 1;
+             }
+    
+            @media @desktop {
+            z-index: 1;
+            align-self: space-evenly; 
+            max-width: 70%;
+            margin: 50px;
+             }
+        }
+
+        h1 {
+            align-self: center;
+            padding: 10px;
+            color:@lambda-red;
+            font-weight: bold;
+            
+        } // h1 content // hero class
+
+        p {
+            align-self: center;
+            padding: 20px;
+            max-width: 50%;
+            color: @shark;
+            font-weight: bold;
+
+            @media @tablet {
+                max-width: 80%;
+            }
+            @media @desktop {
+                 max-width: 75%;
+            }
+        } //paragraph content // hero class
+    } // hero section // hero class
+} // header
+
+main {
+    .flex-column-nw-se-aic();
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    border-bottom: 2px solid @lambda-red;
+    border-width: 100%;
+
+    h2 {
+        padding: 10px;
+        color: @lambda-red;
+    }
+
+    li {
+        font-size: 1.5rem;
+    }
+
+    p {
+        padding: 20px;
+        align-self: center;
+        color: @shark;
+        max-width: 75%;
+    } //paragraph content // hero class
+}
+
+ 

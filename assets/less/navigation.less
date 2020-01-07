@@ -1,1 +1,126 @@
 //Navigation Styles Here
+nav {
+    border-top: 2px solid @lambda-red;
+    max-width: 100%;
+    padding-top:10px;
+    .flex-column-nw-se-aic();
+
+    @media @tablet {
+        .flex-two();
+        margin: 15px 30px;
+    } //media queary : tablet: nav
+
+    @media @desktop {   
+       .flex-two();
+       margin: 15px 30px;
+    } //media queary : desktop: nav
+
+     
+ 
+     .logo-img {
+        max-width: 100%;
+        height: auto;
+        border-bottom: 2px solid @lambda-red;
+        border-width: 100%;
+        padding: 10px 50px;
+        
+
+        @media @tablet {
+          .img-logo();
+        } //media queary : tablet : image
+
+        @media @desktop {
+            .img-logo();
+        } //media queary : desktop : image
+        
+        
+     } //image
+
+
+     .nav-links {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+        @media @tablet {
+           .flex-three();
+        } //media queary : tablet : nav-links
+
+        @media @desktop {
+            .flex-three();
+        } //media queary : desktop : nav-links
+
+        .signin_btn {
+         background-color: @lambda-red;
+         border: none;
+         font-size: 3rem;
+         font-weight: bold;
+         padding: 20px;
+         color: @white;
+         margin-bottom: 15px;
+
+         @media @tablet {
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+            font-size: 2rem;  
+         }//media queary : tablet : sign-in button
+
+         @media @desktop {
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+            font-size: 2rem;  
+         }//media queary : desktop : sign-in button
+         
+            &:hover {
+                background-color: @white;
+                color: @lambda-red;
+                border-bottom: 2px solid @lambda-red;
+
+                @media @tablet {
+                    border: none;
+                } // media queary: button hover effect
+                
+                @media @desktop {
+                    border: none;
+                } // media queary: button hover effect
+            }//hover effect button
+
+        }//sign in button - navigation
+
+        a {
+            text-decoration: none;
+            font-family: lato;
+            font-size: 3rem;
+            padding: 10px;
+            color: @shark;
+            font-weight: bold;
+            border-bottom: 2px solid @lambda-red;
+            width: 100%;
+
+            @media @tablet {
+                font-size: 2rem;
+                border: none;
+                max-width: 40%;
+            }//media queary :tablet : a
+
+            @media @desktop {
+                font-size: 2rem;
+                border: none;
+                max-width: 40%;
+            }//media queary :desktop : a
+
+            &:hover {
+                background-color: @lambda-red;
+                color: @white;
+            }//hover effect  : a
+
+
+        } //links
+
+    } // .nav-links class
+
+} //Navigation Wrapper
