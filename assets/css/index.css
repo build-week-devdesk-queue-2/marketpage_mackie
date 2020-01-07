@@ -35,7 +35,6 @@
 .flex-four {
   display: flex;
   flex-flow: row wrap;
-  max-width: 100%;
   justify-content: center;
   border: none;
 }
@@ -395,7 +394,6 @@ header .hero {
   align-items: center;
   display: flex;
   flex-flow: row wrap;
-  max-width: 100%;
   justify-content: center;
   border: none;
   border-bottom: 2px solid #BB1333;
@@ -443,24 +441,31 @@ header .hero .hero-img {
   header .hero .hero-text {
     z-index: 1;
     align-self: space-evenly;
-    max-width: 75%;
+    max-width: 70%;
     margin: 50px;
   }
 }
 header .hero h1 {
+  align-self: center;
   padding: 10px;
   color: #BB1333;
   font-weight: bold;
 }
 header .hero p {
-  padding: 20px;
   align-self: center;
+  padding: 20px;
+  max-width: 50%;
   color: #212529;
   font-weight: bold;
 }
 @media (min-width: 800px) {
   header .hero p {
     max-width: 80%;
+  }
+}
+@media (min-width: 1000px) {
+  header .hero p {
+    max-width: 75%;
   }
 }
 main {

@@ -10,6 +10,7 @@ text-align: center;
         .flex-four();
         border-bottom: 2px solid @lambda-red;
         
+        
 
         @media @tablet {
              margin: 0;
@@ -50,13 +51,14 @@ text-align: center;
     
             @media @desktop {
             z-index: 1;
-            align-self: space-evenly;
-            max-width: 75%;
+            align-self: space-evenly; 
+            max-width: 70%;
             margin: 50px;
              }
         }
 
         h1 {
+            align-self: center;
             padding: 10px;
             color:@lambda-red;
             font-weight: bold;
@@ -64,14 +66,18 @@ text-align: center;
         } // h1 content // hero class
 
         p {
-            padding: 20px;
             align-self: center;
+            padding: 20px;
+            max-width: 50%;
             color: @shark;
             font-weight: bold;
 
             @media @tablet {
                 max-width: 80%;
-                }
+            }
+            @media @desktop {
+                 max-width: 75%;
+            }
         } //paragraph content // hero class
     } // hero section // hero class
 } // header
