@@ -490,7 +490,7 @@ main p {
   padding: 20px;
   align-self: center;
   color: #212529;
-  max-width: 75%;
+  /* max-width: 75%; */
 }
 .about-main {
   display: flex;
@@ -510,6 +510,9 @@ main p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  border-top: 2px solid #BB1333;
+  border-bottom: 2px solid #BB1333;
+  padding: 20px;
 }
 .cards h1 {
   padding: 20px;
@@ -521,6 +524,7 @@ main p {
   perspective: 1000px;
 }
 .cards .flip-card-inner {
+  border: 2px solid white;
   position: relative;
   width: 100%;
   height: 100%;
@@ -542,6 +546,7 @@ main p {
 .cards .flip-card-front {
   background-color: #bbb;
   color: black;
+  border: 2px solid white;
 }
 .cards .flip-card-back {
   background-color: #BB1333;
