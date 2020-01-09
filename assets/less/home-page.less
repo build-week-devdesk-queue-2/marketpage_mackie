@@ -72,7 +72,7 @@ header {
         p {
             align-self: center;
             padding: 20px;
-            max-width: 50%;
+            max-width: 85%;
             color: @shark;
             font-weight: bold;
 
@@ -80,7 +80,7 @@ header {
                 max-width: 80%;
             }
             @media @desktop {
-                 max-width: 75%;
+                 width: 75%;
             }
         } //paragraph content // hero class
     } // hero section // hero class
@@ -107,9 +107,32 @@ main {
         padding: 20px;
         align-self: center;
         color: @shark;
+        max-width: 80%;
+
+        @media @tablet {
+            max-width: 80%;
+        }
+        @media @desktop {
+             width: 75%;
+        }
         /* max-width: 75%; */
     } //paragraph content // hero class
-}
+
+    .hop {
+        background-color: @lambda-red;
+        color: @white;
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+        h2 {
+            color: @white;
+        }
+    }
+    }
+   
+
 
  // About Page
 
@@ -124,8 +147,12 @@ main {
         color: @lambda-red;
         font-weight: bold;
     }
+    
+    
+
+    }
  
- }
+  
 
 .cards {
     display: flex;
