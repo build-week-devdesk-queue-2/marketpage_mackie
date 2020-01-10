@@ -10,8 +10,10 @@ header {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        border-bottom: 2px solid @lambda-red;
+       /*  border-bottom: 2px solid @lambda-red; */
         align-content: center;
+        
+
 
         @media @tablet {
             display: flex;
@@ -27,17 +29,11 @@ header {
 
         .hero-img {
             @media @tablet {
-            width: 100%;
-            height: 375px;
+            display: none;
             }
 
             @media @desktop {
-            margin: 0 auto;
-            position: absolute;
-            width: 100%;
-            height: 250px;
-            z-index: -1;
-            opacity: .50;
+            display: none;
             }
         }
 
@@ -46,7 +42,7 @@ header {
             flex-flow: column wrap;
             align-content: center;
             margin: 0 auto;
-
+  
             @media @tablet {
              z-index: 1;
              }
@@ -90,11 +86,13 @@ main {
     padding: 15px;
     margin: 0 auto;
     border-bottom: 2px solid @lambda-red;
+   
     border-width: 100%;
 
     h2 {
         padding: 10px;
-        color: @lambda-red;
+        color: @purple;
+        font-weight: bold;
     }
 
     li {
@@ -109,6 +107,7 @@ main {
 
         @media @tablet {
             max-width: 80%;
+         
         }
         @media @desktop {
              width: 75%;
