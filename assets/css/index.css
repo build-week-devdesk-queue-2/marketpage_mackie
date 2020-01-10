@@ -504,6 +504,15 @@ main p {
     width: 75%;
   }
 }
+main .signin_btn2 {
+  background-color: #BB1333;
+  border: none;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
 main .hop {
   background-color: #BB1333;
   color: #FFFFFF;
