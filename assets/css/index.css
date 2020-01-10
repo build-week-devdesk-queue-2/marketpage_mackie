@@ -529,6 +529,11 @@ main .hop h2 {
   color: #BB1333;
   font-weight: bold;
 }
+.about-main a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
 .cards {
   display: flex;
   flex-flow: row wrap;
@@ -575,4 +580,8 @@ main .hop h2 {
   background-color: #BB1333;
   color: white;
   transform: rotateY(180deg);
+}
+.cards .flip-card-back a {
+  text-decoration: none;
+  color: white;
 }
