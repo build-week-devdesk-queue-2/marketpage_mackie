@@ -52,45 +52,7 @@ nav {
             .flex-three();
         } //media queary : desktop : nav-links
 
-        .signin_btn {
-         background-color: @lambda-red;
-         border: none;
-         font-size: 3rem;
-         font-weight: bold;
-         padding: 20px;
-         color: @white;
-         margin-bottom: 15px;
-
-         @media @tablet {
-            width: 100%;
-            margin: 10px;
-            padding: 10px;
-            font-size: 2rem;  
-         }//media queary : tablet : sign-in button
-
-         @media @desktop {
-            width: 100%;
-            margin: 10px;
-            padding: 10px;
-            font-size: 2rem;  
-         }//media queary : desktop : sign-in button
-         
-            &:hover {
-                background-color: @white;
-                color: @lambda-red;
-                border-bottom: 2px solid @lambda-red;
-
-                @media @tablet {
-                    border: none;
-                } // media queary: button hover effect
-                
-                @media @desktop {
-                    border: none;
-                } // media queary: button hover effect
-            }//hover effect button
-
-        }//sign in button - navigation
-
+       
         a {
             text-decoration: none;
             font-family: lato;
@@ -113,13 +75,59 @@ nav {
                 max-width: 40%;
             }//media queary :desktop : a
 
-            &:hover {
+       /*      &:hover {
                 background-color: @lambda-red;
                 color: @white;
-            }//hover effect  : a
+            }//hover effect  : a */
 
 
         } //links
+
+        #signin_btn {
+            background-color: @lambda-red;
+           
+            border: none;
+            font-size: 3rem;
+            font-weight: bold;
+            padding: 20px;
+            color: @white !important;
+            margin-bottom: 15px;
+            
+   
+            @media @tablet {
+               width: 100%;
+               margin: 10px;
+               padding: 10px;
+               font-size: 2rem;  
+               border-radius: 15%;
+               color: @white !important;
+            }//media queary : tablet : sign-in button
+   
+            @media @desktop {
+            border-radius: 15%;
+               width: 100%;
+               margin: 10px;
+               padding: 10px;
+               font-size: 2rem;
+               color: @white !important;  
+            }//media queary : desktop : sign-in button
+            
+              /*  &:hover {
+                   background-color: @white;
+                   color: @lambda-red;
+                   border-bottom: 2px solid @lambda-red;
+   
+                   @media @tablet {
+                       border: none;
+                   } // media queary: button hover effect
+                   
+                   @media @desktop {
+                       border: none;
+                   } // media queary: button hover effect
+               }//hover effect button */
+   
+           }//sign in button - navigation
+   
 
     } // .nav-links class
 
